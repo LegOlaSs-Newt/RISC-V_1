@@ -1,0 +1,32 @@
+{
+  "Repository": "https://github.com/eembc/coremark",
+  "Tag": "v1.01",
+  "Commit": "cfa9ab377835911f23d9b0831c7be302ed1f58de",
+  "FetchedAt": "2026-10-22T21:19:23.5558378+08:00",
+  "Files": [
+    {
+      "File": "core_list_join.c",
+      "SHA256": "E6C82700C2E422DC23962BF838F7D1CD3558FE825095FE832BEB63F2F8412B14"
+    },
+    {
+      "File": "core_main.c",
+      "SHA256": "BAFCC71C2CCA06D7E15AC27E58E17F7F0BCB3C8C92404D9FA7039020DE46091F"
+    },
+    {
+      "File": "core_matrix.c",
+      "SHA256": "7B8C44EE71D3A1A66DBF15D711861762852A45D6EC0C3C8ACA6B780742CE3507"
+    },
+    {
+      "File": "core_state.c",
+      "SHA256": "74D5DFCDC2A2F4A9AF5B1D6D0240D60522A24DBC55DF20320E30D6D33EE79501"
+    },
+    {
+      "File": "core_util.c",
+      "SHA256": "3C73F46D7DDC066F92A811AAD511808395549F8D67D626612064EBC1B2477290"
+    },
+    {
+      "File": "coremark.h",
+      "SHA256": "2DA505DAE03D07A259509A3B6DFDE873CF5D64B120ACBA93236346F94EAB0A9B"
+    }
+  ]
+}

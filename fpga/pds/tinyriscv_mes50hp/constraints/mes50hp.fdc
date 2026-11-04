@@ -1,0 +1,188 @@
+# Generated for 27 MHz board oscillator (K21).
+create_clock -name {clk_sys} [get_ports clk_sys] -period {37.037} -waveform {0.000 18.519}
+define_attribute {p:clk_sys} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:clk_sys} {PAP_IO_LOC} {K21}
+define_attribute {p:clk_sys} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:clk_sys} {PAP_IO_STANDARD} {LVCMOS33}
+# MES50HP: physical connections follow the user-designated schematics.
+# Hardware manual is secondary. J16 / Bank2 3.3 V requires manual verification before loading.
+
+define_attribute {p:key1_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:key1_n} {PAP_IO_LOC} {K18}
+define_attribute {p:key1_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:key1_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:key2_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:key2_n} {PAP_IO_LOC} {L15}
+define_attribute {p:key2_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:key2_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:uart_rx} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:uart_rx} {PAP_IO_LOC} {R8}
+define_attribute {p:uart_rx} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:uart_rx} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:uart_tx} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:uart_tx} {PAP_IO_LOC} {R9}
+define_attribute {p:uart_tx} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:uart_tx} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:uart_tx} {PAP_IO_DRIVE} {8}
+define_attribute {p:uart_tx} {PAP_IO_SLEW} {SLOW}
+
+define_attribute {p:led[0]} {PAP_IO_LOC} {B2}
+define_attribute {p:led[1]} {PAP_IO_LOC} {A2}
+define_attribute {p:led[2]} {PAP_IO_LOC} {B3}
+define_attribute {p:led[3]} {PAP_IO_LOC} {A3}
+define_attribute {p:led[4]} {PAP_IO_LOC} {C5}
+define_attribute {p:led[5]} {PAP_IO_LOC} {A5}
+define_attribute {p:led[6]} {PAP_IO_LOC} {F7}
+define_attribute {p:led[7]} {PAP_IO_LOC} {F8}
+define_attribute {p:led[0]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[1]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[2]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[3]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[4]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[5]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[6]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[7]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[0]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:led[1]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:led[2]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:led[3]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:led[4]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:led[5]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:led[6]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:led[7]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:led[0]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:led[1]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:led[2]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:led[3]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:led[4]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:led[5]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:led[6]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:led[7]} {PAP_IO_VCCIO} {3.3}
+
+# GPIO0: J16 pin 3, FPGA AB13; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[0]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[0]} {PAP_IO_LOC} {AB13}
+define_attribute {p:gpio[0]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[0]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[0]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[0]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO1: J16 pin 4, FPGA Y13; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[1]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[1]} {PAP_IO_LOC} {Y13}
+define_attribute {p:gpio[1]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[1]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[1]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[1]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO2: J16 pin 5, FPGA AB11; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[2]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[2]} {PAP_IO_LOC} {AB11}
+define_attribute {p:gpio[2]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[2]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[2]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[2]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO3: J16 pin 6, FPGA Y11; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[3]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[3]} {PAP_IO_LOC} {Y11}
+define_attribute {p:gpio[3]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[3]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[3]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[3]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO4: J16 pin 7, FPGA W11; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[4]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[4]} {PAP_IO_LOC} {W11}
+define_attribute {p:gpio[4]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[4]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[4]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[4]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO5: J16 pin 8, FPGA V11; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[5]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[5]} {PAP_IO_LOC} {V11}
+define_attribute {p:gpio[5]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[5]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[5]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[5]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO6: J16 pin 9, FPGA AB10; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[6]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[6]} {PAP_IO_LOC} {AB10}
+define_attribute {p:gpio[6]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[6]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[6]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[6]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO7: J16 pin 10, FPGA AA10; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[7]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[7]} {PAP_IO_LOC} {AA10}
+define_attribute {p:gpio[7]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[7]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[7]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[7]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO8: J16 pin 11, FPGA Y10; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[8]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[8]} {PAP_IO_LOC} {Y10}
+define_attribute {p:gpio[8]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[8]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[8]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[8]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO9: J16 pin 12, FPGA W10; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[9]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[9]} {PAP_IO_LOC} {W10}
+define_attribute {p:gpio[9]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[9]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[9]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[9]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO10: J16 pin 13, FPGA T11; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[10]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[10]} {PAP_IO_LOC} {T11}
+define_attribute {p:gpio[10]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[10]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[10]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[10]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO11: J16 pin 14, FPGA R11; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[11]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[11]} {PAP_IO_LOC} {R11}
+define_attribute {p:gpio[11]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[11]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[11]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[11]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO12: J16 pin 15, FPGA Y12; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[12]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[12]} {PAP_IO_LOC} {Y12}
+define_attribute {p:gpio[12]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[12]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[12]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[12]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO13: J16 pin 16, FPGA W12; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[13]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[13]} {PAP_IO_LOC} {W12}
+define_attribute {p:gpio[13]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[13]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[13]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[13]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO14: J16 pin 17, FPGA U12; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[14]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[14]} {PAP_IO_LOC} {U12}
+define_attribute {p:gpio[14]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[14]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[14]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[14]} {PAP_IO_SLEW} {SLOW}
+
+# GPIO15: J16 pin 18, FPGA T12; schematic default VCCIO_2=A3V3.
+define_attribute {p:gpio[15]} {PAP_IO_DIRECTION} {INOUT}
+define_attribute {p:gpio[15]} {PAP_IO_LOC} {T12}
+define_attribute {p:gpio[15]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:gpio[15]} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:gpio[15]} {PAP_IO_DRIVE} {4}
+define_attribute {p:gpio[15]} {PAP_IO_SLEW} {SLOW}

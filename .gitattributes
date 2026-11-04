@@ -1,0 +1,3 @@
+# Preserve verified source bytes across Windows and other checkouts.
+* -text
+*.bin binary

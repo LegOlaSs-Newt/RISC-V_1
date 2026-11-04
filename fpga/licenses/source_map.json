@@ -1,0 +1,1138 @@
+[
+  {
+    "path": "pds/tinyriscv_mes50hp/build.ps1",
+    "original_notice": [],
+    "before_sha256": "1B5F30C12F8D3975F8C364FD06003051F6BFCC3497908B9B563BFE10AA8CAC18",
+    "after_sha256": "7453BA0C5CAA1886C6B72B3FB1E165F3117C3BBE8D95344D2EE09AF9F03A7750",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "F93EFE9CD1AF2E0BA88EE2D5065D92AC97658119DC376B6C58B2BF177B80D23E"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/configure_sram.ps1",
+    "original_notice": [],
+    "before_sha256": "E0A0DD8E1CC4E351638737F2427A04778AB2B4877AFA4B2EB35DD7F7D8F70EA1",
+    "after_sha256": "601A5EDFA82FF3A46CD4651BDD3C9978FCF158A2F388013DABC8DC3FEBDCF35C",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "7DECD343379785F56446B86F72969C6FD34757378C59FBED2BAA592730610575"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/download.ps1",
+    "original_notice": [],
+    "before_sha256": "122F6B92C0C7A053D3A02C9923017FF87BFCD0BA128964460F76BF6C579ADEBB",
+    "after_sha256": "7F834B65063EF8E6ACB5CFDCC9F4E5AA7EC2BE80F5979FD1F89DDF6BE0D34878",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "E945813546FE16763F0AB2C6ED05D1D2C1B50F02D1C39969036C1E73E4332B2C"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/boot_image_path.vh",
+    "original_notice": [],
+    "before_sha256": "CED6DF3CE4A080B5B0F82F64E61F5951A63B037A8C4953D4F77C8DD40EAD090B",
+    "after_sha256": "9E717093E35F1A5351F377F453A0423B3BE5E5133BF1F9BB8D885576C3E13394",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "439B4C843302890A6F327AE3EA61B4D25ED360EC10BA1114619D691D47B8BA99"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/memory_config.vh",
+    "original_notice": [],
+    "before_sha256": "4BA0A41F36D3F72E082C8C46F808D106440F515CF7DB1881296D5161F75D6936",
+    "after_sha256": "7DA1078E22C8A8DA4F1EA7FE3C7A7136BAB213124A2F7210FCE8085161A03B01",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "0B3289BBE6912592605FAA08F762012C5CD93502EE9ADAD75F021EB98C34D18B"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/mes50hp_config.vh",
+    "original_notice": [],
+    "before_sha256": "4665CBC5F1C15FB0553519B4C2428A26084028C0EFCC93B38879948BD7CCC19B",
+    "after_sha256": "4057006DCE92F9AC6080DE0D7220AD586529D72148DFC3E245E37608EE1C7F4F",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "4E38FDBAE3D9C4ECE7989232CEC6D22E2D924575710A19922B76B9C85A297429"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/tinyriscv_mes50hp_top.v",
+    "original_notice": [],
+    "before_sha256": "A95AEB982522121C6630E302CD0441E6B7DA8E43236604FE505C7B5D89421398",
+    "after_sha256": "6C7FBC9041682E08400F0C6231614E6CDB45DB4B6CEB59F4D3A2009526ED600E",
+    "origin": "本项目板级适配",
+    "rtl_lexical_equal": true,
+    "public_sha256": "41A39F7548B5982CF9DC62FA4DAFAD69883FC6B215E03CBF6FCC949F9E8D159A"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/branch_predictor.v",
+    "original_notice": [],
+    "before_sha256": "EDD0D97FD6E7047DC41ECED34BFB57EC780640D05E792A9D13BE18906D56B650",
+    "after_sha256": "DA3559563429F61D67B32FD063BA1E36FE80F5DEBCE63B1FD1FA62BEF93C20C9",
+    "origin": "本项目新增",
+    "rtl_lexical_equal": true,
+    "public_sha256": "9C571540A84E148700B739C5F1E7CDDE847C66CADD54C4B35211A6EF21ECAF53"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/clint.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "068F1EC0724EBB4FC9DC46711C730249C82C9D04CA51307201B7152DDF3274D0",
+    "after_sha256": "E81EEB77FFE2E74109B0524E8040810CEE9FBA373B7F0CB70DA3D01808B65100",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "C247822D22887617E689A18CFAAAEC9A41C92C5D24EADCAF8378DB916B3E85B9"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/csr_reg.v",
+    "original_notice": [
+      "/*\r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n Licensed under the Apache License, Version 2.0 (the \"License\");\r\n you may not use this file except in compliance with the License.\r\n You may obtain a copy of the License at\r\n     http://www.apache.org/licenses/LICENSE-2.0\r\n Unless required by applicable law or agreed to in writing, software\r\n distributed under the License is distributed on an \"AS IS\" BASIS,\r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and\r\n limitations under the License.\r\n */"
+    ],
+    "before_sha256": "E8A95EFDC18C3BE0FE9BC038834D25D8B06E376C22159F4CD6040FB612A78CFE",
+    "after_sha256": "8BD209258705AE475AC78177095BC88A4FC9A0A6860B776298825F7B9ED16863",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "6ADD51D85660D5F44E84D1F693971C66151FF3A6636D5CE33ACA9A71AF66DF63"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/ctrl.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2019 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "C24008E891D0B28CB147262B2F00362E7260135CE56A965705FB2A049D8D9606",
+    "after_sha256": "63F8F5A53EA38F53FD31D9DEC9EFD4370B4F5A6D5CBB6C49BD3D40DD90FDEAD5",
+    "origin": "基于 TinyRISC-V 对应模块修改扩展，原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "ACC94AF0A1CFA21A41E52A6CA428AABCFAC3C036476EE419E220537AD8A69BAE"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/defines.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2019 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "538A1E7B378FB23CAD7A5FADC20FE9C4289238AD31BD0975A82E9D6B8E2DC0EA",
+    "after_sha256": "C7F72B72FEEFFEB3B65F7B0FE01AAA042D4CF55559BE4058841F7C6B52DCE645",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "8CA6BA6E975EC65DADE0B64D446ACE4ADEA625000C6BF82353F9EEBB15FFD10C"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/div.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2019 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "3611FA20799649930BACC465F73FE034F36D129E6118444C3CC1F625BCF6843D",
+    "after_sha256": "3573C0D58FE42337B4DFD3815059CBC1DF5D92A278E9B14A903242F396A2449C",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "5A475693BF725C02B860EA07BB16E7A1E4D66639D05EA74C592B2301882BE108"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/drm_transaction.v",
+    "original_notice": [],
+    "before_sha256": "178C3959433D2DB9CF6504832F42762D207DC8A47F204EA9196E0DFD6553F576",
+    "after_sha256": "80E3763A89FF78FE9232772F4D6E7610FF1406F9CC9C9FAA08DAF56CE6F5ED61",
+    "origin": "本项目新增",
+    "rtl_lexical_equal": true,
+    "public_sha256": "F373C0F4CB4026751E8C7FE56C3AEDDCDF7A23A6D678ADC3D977E19E009AF9FE"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/ex.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2019 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "4D7DB3D8588487D84BDFBA59D08947D4E2AA2650551DCD73424F8365F9689FF4",
+    "after_sha256": "DAB768A4534AEE96A47791F4CFB7C04543283FD0E9CFD353A7CAA1BEBF296B33",
+    "origin": "基于 TinyRISC-V 对应模块修改扩展，原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "A467EA44130AF194B8F92E85E6BE5501AEC3E2AA032EFB8582A5EBC9C127AAAE"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/fetch_transaction.v",
+    "original_notice": [],
+    "before_sha256": "3B84DF111852354FCC48DEA6B7BDA138D8BA01CD824921E6AF3E58AB892B26D9",
+    "after_sha256": "CDFB448C2207A320EB9C9E73E8D6144B042529603CAB6283C61475073014F7F5",
+    "origin": "本项目新增",
+    "rtl_lexical_equal": true,
+    "public_sha256": "5EEAA66952CB87FE3FAA3389F569C619AA4144BBFEA7A9BBD2DCF85CE36B45A7"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/id.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2019 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "AE0A13CD729FBD30567ABA03628C3CC869A134B7C2BD57EE6A04E35583707AB2",
+    "after_sha256": "53F4A3EFBFF43B3E11C3224F3F30B2C8B489F529B20C3C0682823FFE9FA619A1",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "F208B939672383A766A33F28B6622054C49F1519D191769619AE2D485B1D9CF1"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/id_ex.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "101B2A13060A5FD98B0C8E2B3F3B37EC81831216FAAED64E3F66D8D9A847F0E0",
+    "after_sha256": "DE4494BD750F367B5BB264976051E524F1D7B71DA47A45EC6AD3E02C5930FBC9",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "A85041B1DE4163BBD62398EDF8AB131E193D2FAD18B9E6A6256AFFA483601EE2"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/if_id.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2019 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "7D21853A8B60535F56C82D592C30BE2AA7F6E8A8308203224DBDB8D2B8FF0716",
+    "after_sha256": "0A327890D1F28944FFA5FB03E94209E645C82D79440C2C68372E7D56F371A753",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "71EBA56CD430BC94CDC296ADB6A084847BBBB5410F1827499BF315941AAF4A78"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/memory_system.v",
+    "original_notice": [],
+    "before_sha256": "4E6D365B018378622C940B9E4139B55A0C4EF3C723D7948EDC22CC9CA7DECAEB",
+    "after_sha256": "D74F1DC82DBAC3D64F2FC70B4DB0858E7C8FBAB86CC6830E61FF11F0503E353C",
+    "origin": "本项目新增，连接 TinyRISC-V CPU 和片内存储及外设",
+    "rtl_lexical_equal": true,
+    "public_sha256": "E1AB28165FBE8AEF69EB384EEB071212A5FEC128E2C100AE2FCA992E6CCE9E63"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/pc_reg.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2019 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "6D0829F173241DADD874A01324F47A8E12A4E8E148A9F2C09A580B5D1B5C265A",
+    "after_sha256": "518A9BB6874359C0FBEC0AF3A6BD22369335E4BC4E1D76A06CE6A23564D5EB2A",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "C89D118E2DEE429C0CBF716DB94EEC167B505E5F1C15E435C6E9332E5AFDCE47"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/regs.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2019 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "AA3B5CB9895875361B85F6F2CD0293251572E7CA87851C1A6DA03E5AFA2E8992",
+    "after_sha256": "D7368EDA97102FE844653FABBFD8FC3687C0B98A384996B48EC9A4607303F4A6",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "812D5F63BB400755F66C3EB8DB6FE4A46FB9824FD6B87059207EA79372D62EC7"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/rib.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "2B7CADCDDFE043EC4126495926C343F1B7E102406627011DEABEF4E03A4876E3",
+    "after_sha256": "593FF20EDF6DF637F74DCEFA9B6FC9CA60D61C01573401E4AC517DB7942149C6",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "2721F791566B07DD0B5A23B2E16946C0477803684DA270D4E35714A645452F7D"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/tinyriscv.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2019 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "D8A25DA1D9AB84E13AFB686AB269DB0B9A77A4F37DAD146A9EE6F0FE0A808DE3",
+    "after_sha256": "6EC4EEE939AE20D5119A0C0796F3673B92B4F925EF4DF76A33E3DA60B6AA28B6",
+    "origin": "基于 TinyRISC-V 对应模块修改扩展，原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "DAEAFDACECDCA22B1B66D479E6ED62E60E9262D501CE0D15A07F9CC781EE218E"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/trap_control.v",
+    "original_notice": [],
+    "before_sha256": "B781BC3D5B617B2C1BDD2395E593BC44362626DCDAFA187CA03FE5FEADBAA649",
+    "after_sha256": "22AE59B5BC83B5F83C51722425F65C4FD0C8B8CB878B7A1F76D9FE18A58D5C2B",
+    "origin": "本项目新增",
+    "rtl_lexical_equal": true,
+    "public_sha256": "F8D6AC0B1A12345D824BC90D668B32B1D504D8E7CDEBE003FDB338353B6D9141"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/core/two_way_cache.v",
+    "original_notice": [],
+    "before_sha256": "471794FD34ECFC5B62B35CB247EBCA78AD8EC7C8EB758A335B0DAE8318AB9CC2",
+    "after_sha256": "F59E9D7E8429503814ACC48CFB177ED202B436498838355B2139A37889213D77",
+    "origin": "本项目新增，构建于 TinyRISC-V SoC 等待接口",
+    "rtl_lexical_equal": true,
+    "public_sha256": "79CF2710A1769FCC8CE91D25D5B96E6332C79DC8EB7EAF32A03F315EF1FAFA0A"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/debug/jtag_dm.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "4722C671F48C3D968CAA2AA6BCE415AFB85E47A1F463ADB81AF2463E0D458E10",
+    "after_sha256": "8DF17675E0B3E3519B3ABEA4AC4F6094A9B1B70AD3302EABA938FB4A239E23B3",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "32274CE58B5F7DEBF3905ADDCF186158AF0EC42FB6B68982B4ED57077515C442"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/debug/jtag_dm_wait.v",
+    "original_notice": [],
+    "before_sha256": "39F743E8E27E3F6BF2A55A70C3D43022EACDE3DFF24238169B89A2B7BF02FE69",
+    "after_sha256": "C55C4540E52CC547A04758AD0F573DD31E5D026BF3EC5C0C5D736BC75E3552B2",
+    "origin": "本项目在 TinyRISC-V 调试模块基础上新增",
+    "rtl_lexical_equal": true,
+    "public_sha256": "8C1EBF87AFE6529A059C02F05478060E5F52D1DBAC0554A67FDCA84F601AD706"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/debug/jtag_driver.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "BF09295B9EA9F46C3502F9940C2ACBCCFCC6A069A03812E91ADBBC60667E5838",
+    "after_sha256": "95B3D5FAD8701CC58B554B2E5710996A7CDD8204D0DA1B1461DEE32DCF41E68E",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "D15815A233D27020B0E37FDEB9104F59817B88B08F871E86CB8F5419B32BF9F2"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/debug/jtag_top.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "CF4757997E214CBBEFF5D0C82DBA42277FD25C900B6FD3C3D47FB3CAD51ECC13",
+    "after_sha256": "5CCC6446929709F7E55DD7121F3E4CD59FCEFE856DFCA78E482C4089C9FDC102",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "82F1ADAB51A8DE0DFCEB706294E460F9DD7E6315B636E166A32A921ECC2DBE4D"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/debug/uart_debug.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "B54F0E5AA3E6CCC1427C6E5D5BC4038B09390BD0BC5BAC72C975D3D900868B14",
+    "after_sha256": "E56E37AD711F1C7DCEDAD579C64D51421D1A722A4056CA5852394E61E850CA29",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "F85AC1FF4AA2F14FC61E5B5050578A4CFDD39E4FA6769901D7CEB257134C2E42"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/debug/uart_debug_wait.v",
+    "original_notice": [],
+    "before_sha256": "5DC33620DD66DFEC3EBAB476BBED6AA63084971440BFFE95BFBD65F6E66A65B7",
+    "after_sha256": "8098819C55632DB191AC1F1FB279C2BB7BF119D62960760FF16614658802C465",
+    "origin": "本项目在 TinyRISC-V UART 下载协议基础上新增",
+    "rtl_lexical_equal": true,
+    "public_sha256": "56933B06B7CE7F52D632F53A4C2D643E6CA43B45990BCCF8BAC6FBE2AAAC6C70"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/perips/gpio.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "EF510FDE7E1CD65B062948F7228B0C9DC3934E81C136E36A898B1B637BEBC6BE",
+    "after_sha256": "AAB8F2FBE4181B6C72CD1BB64D3F5A876604A80506686BD683C3EB8D31FE117E",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "A8C824A9727A4307D06341030EEC89924459FB5E291CB0E72CD8D71D2ADA7690"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/perips/ram.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2019 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "A0725B88B02818CF226ED628D80DD9100A2663BB8AB1A107BAAEE30247F53849",
+    "after_sha256": "44484A24993F04FD73415770FF5EFBB464C5C334F3D6DE2D910631CAFCB82D54",
+    "origin": "基于 TinyRISC-V 对应模块修改扩展，原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "9BC5DAFE2D6EA920B6DC6FC674FA740B7BCC856FDF9C1C4B165AF476916ABC21"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/perips/rom.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "ECF8116D8ADCCE78D33ED15A0408F7BBBFA2C6E49C139801145C6C5F12C79566",
+    "after_sha256": "8AF1D2548CCB4FD79616F0B0A2EBD19B66C44CC17B43A3CAA3DCA36DC3070A60",
+    "origin": "基于 TinyRISC-V 对应模块修改扩展，原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "D174720A94AFC4D321C4D2808D8C7B58C5C3F82E98EA872BDE16A421178DD1E5"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/perips/spi.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "1891B2DEA52D66B50EC3928CE1C62B694B46A1666AF21070ED2600A1DF731EBC",
+    "after_sha256": "C89E53B8577147E269AAA11BEFE143801513EDB3EC3DC3DA889BD04C3A3F7EB7",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "31338723E3389A3D70ED50F39E42FD83DAE47E654E26879523685F219851B12B"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/perips/timer.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "F2EFD4E7E3DC03E855816DE7638634EDF569BA6351B0169AFC7DE627F1E617E6",
+    "after_sha256": "750D0387AE1686E13D7F62EE31EC49C9FEDA5BFAD7345662B32BEC094E8E983B",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "02D3F2A805B81347EFBCF5769AACDEBDC669E061CC65178638C30DE3479CBCDE"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/perips/uart.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "FF275572FD36085BAF1FC7953D9128629D905E09D0008922816B83E3E8A76A9A",
+    "after_sha256": "E0874B06BE22E39CC77C437C2F60A1A3BC3BAB957EAE39EA8FB66E30EAA60AD1",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "88013B74E4955F0B4E135E6CF14C014F7385F97809223099432DA75C2AD14C81"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/soc/tinyriscv_soc_top.v",
+    "original_notice": [
+      "/*                                                                      \r\r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\r\n                                                                         \r\r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\r\n you may not use this file except in compliance with the License.        \r\r\n You may obtain a copy of the License at                                 \r\r\n                                                                         \r\r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\r\n                                                                         \r\r\n Unless required by applicable law or agreed to in writing, software    \r\r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\r\n See the License for the specific language governing permissions and     \r\r\n limitations under the License.                                          \r\r\n */"
+    ],
+    "before_sha256": "2E8AA863B5CE126C017EB4045EEAEDE60A13121DE7152D2BDC7E0F09BA137E5D",
+    "after_sha256": "4D94E8D7B051AB1D03DCABDED395A5DF5A456229DB1216ABD6FBD0B083E0364D",
+    "origin": "基于 TinyRISC-V SoC 对应模块修改扩展，原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "6855D416318890FD2CF9A5E5F0150B730A94513F74DD731F9D5D145B618E3398"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/utils/full_handshake_rx.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "AAB78436FA4C25B1A14CB8F53789FB297E7129B57D3C15642F4E65A32132BE2C",
+    "after_sha256": "D70C106909E22078C64610EE425EC8A792CE08C16B8AD8D56CD24533CD412491",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "5A8C76C7011EF9389BF0A5423AB916706DC5E8CE112FA214D907DC7D28E493B4"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/utils/full_handshake_tx.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "20AE1129C824ED761ADE25E11843678B2429F019C4D031640BFADEA850FD1236",
+    "after_sha256": "7E343384F1D228A028426C7CF36174B278A0BC5173C8724685091C5C8D38A7EF",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "0F2DC71ABD2311377FB3BA88FDD1398B57EB2418D07FDC03DC617D0C24D2C7AB"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/utils/gen_buf.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "66E76785121A87C1D429EBEC8CB1BBD392EEDBF888FEC18E0841BF1683D9E095",
+    "after_sha256": "4ABC19EEEB0535DF2E8429E63C1BC066B12480B56957B21CFF534EC0DAD9A47A",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "041BB5FAAC37B194A5DA85D22AAACF6521131FEBB92D60CF4FEDBE16085A8D41"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/rtl/vendor/utils/gen_dff.v",
+    "original_notice": [
+      "/*                                                                      \r\n Copyright 2020 Blue Liang, liangkangnan@163.com\r\n                                                                         \r\n Licensed under the Apache License, Version 2.0 (the \"License\");         \r\n you may not use this file except in compliance with the License.        \r\n You may obtain a copy of the License at                                 \r\n                                                                         \r\n     http://www.apache.org/licenses/LICENSE-2.0                          \r\n                                                                         \r\n Unless required by applicable law or agreed to in writing, software    \r\n distributed under the License is distributed on an \"AS IS\" BASIS,       \r\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\r\n See the License for the specific language governing permissions and     \r\n limitations under the License.                                          \r\n */"
+    ],
+    "before_sha256": "E35A995459A14130BA0C3982CA35A80F1D1F5F02A738F91A4F4072C828258603",
+    "after_sha256": "196A6CDA8288B90E380B4ABB6F55F44F68BE3D150C67F259587A71266A7C11F9",
+    "origin": "基于 TinyRISC-V 对应文件；原声明按文件保存在 licenses/SOURCE_NOTICES.md",
+    "rtl_lexical_equal": true,
+    "public_sha256": "865E9D8CF7A049BE17DCD1A29B69C40C7B9D04D0AEBF3BDE45550DB9CB77E3F3"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sim/capture_cache_probe.ps1",
+    "original_notice": [],
+    "before_sha256": "6EF9A7645F06BEF2EC837DDBA8B435BC489ADD5B946E6E00F41BCAAD6FE95919",
+    "after_sha256": "97A2F73ACA0E5253BEBD8F08AD9798751468F0BBE76AFBD70F640F4E20660548",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "727D7A450C794BD9C9CDAA9DDE227CFC7264110E7325328703B2BFA8995D170E"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sim/capture_v2.ps1",
+    "original_notice": [],
+    "before_sha256": "C6FBCB1DF157D54D220F74800A4D6695EEC81656FC761ABC9A8C84FF88C23019",
+    "after_sha256": "F4B9562816D1B45E24AE8568FC4142E0ED7DA01C209F906999CC7DAF4DDAC36F",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "952A3021C0CD74D8E031650645B9063C78E50E00930746992D61C4113BD302C5"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sim/check_drm_rom_init.py",
+    "original_notice": [],
+    "before_sha256": "1BB853F7B566BE3F61947BC535562D80E6E2C212B27E6B573D5085E73DAA0081",
+    "after_sha256": "48F66CD853BE4C3DF4329504FF8DEF41EA3645F89D3DB793C9259DF19086888A",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "E11C6E0205C79C1FC660F4890B70DFD36E2E8C15525B3529F033A0A8AD66E008"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sim/check_host_protocol.ps1",
+    "original_notice": [],
+    "before_sha256": "FA71C3D8E453217283280F0478E1BE0B7B2556D38F0F93E2722DBD7FAD83E5A3",
+    "after_sha256": "FF5393A308043A52BD36D0D0A9E93109C71EA8F7EBBCBCA42DBA899B762FA28C",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "5B26B07A60DE59BFC911F8549EA0FB78CFE472D35D382F773ADAA147E13E52FF"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sim/check_rom_init.py",
+    "original_notice": [],
+    "before_sha256": "1F1ADC4ECE37BD9D61C6E94135B0F4BA4B498125316E0D2DD13F581E0F0EE99E",
+    "after_sha256": "7EEAFD133A9B2E96355CDFCB57BEAF093539D86EA3DAB6709EB476795EFDD5BD",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "A11B31AB696964465AE18486F0B1AF041D1B601B14858E337269A6ED57F11818"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sim/gpio16_tb.sv",
+    "original_notice": [],
+    "before_sha256": "24D26D60C70E892BEBD96004B3F238E26CEFDC82961B36E01E88A195A2DAE9F6",
+    "after_sha256": "41674B82CCEB1950134C37EB6C3FC3256F3C4DDBCA1E9CF5CDFD5368B2754CD7",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "67911CB83FD276384FF28F8446208DF719E68AFD6831EDF8420A660F68712FB4"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sim/gpio_console_tb.sv",
+    "original_notice": [],
+    "before_sha256": "81292719D81E0DDDB7BB852E9D0D6488C803DEEE990ACCF1467A8A9A4DD8963D",
+    "after_sha256": "E08628E0E2C0F1D16E81ECBD88DEFA695117D0E9C0CFE964174E1DF734A8578E",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "926845495C5A64F57AEDE33EFD8E8DB86014BEA39D97F93AB1EFC424F5BEF99C"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sim/mes50hp_tb.sv",
+    "original_notice": [],
+    "before_sha256": "4C82B051892ABF5F9130AB4C4848CE23D1BDFE1308BDE4ECFAEEE098FE38929F",
+    "after_sha256": "D57EB47925DFF5E852D560BA990DF996BA61DCE1F449C11996673E1E43F4455A",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "335EAFF06D7CBFEA457C1FEB785754ABF1E3A23797C0F420152CF521D13F811A"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sim/rom_boot_probe_tb.sv",
+    "original_notice": [],
+    "before_sha256": "025B2EB176F2C1B2C85315187F7BB1198288BC5F2CEA66BA302F0E664C87CAFC",
+    "after_sha256": "1BD28FE05BC643E9580A7CDA0DC4CE024ED9C61CD1B8893B481EA8B8C931ED39",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "99FCC4336B7ABD8036A80FC610E2FF608AA334E0116E9EF0B4E11B1D0F28F9E8"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sim/uart_loader_tb.sv",
+    "original_notice": [],
+    "before_sha256": "0A4B2EAEEEA50471AB0AC5B9E3B0B999678F152DCB5F21D9063230B4E59AC89D",
+    "after_sha256": "B1BBB953DFB65B5F5070AE340AD8747C9ED045904C31CCA17A571A26B1F0378D",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "8EAF1A7FB88C9FDCCA6332DCA859FDECEF3B2F076A0577933954C6D6D8F42820"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/cache_probe/analyze.py",
+    "original_notice": [],
+    "before_sha256": "6CF0E61534DCED81FE7E159A3F3098A000750F0A9E5F1DE56DC4CF00E495EE5E",
+    "after_sha256": "A64F2CCA5A38499CB5D044A23CC62C18FCAD04AAE031F45D8AD54963A11F299C",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "3D8069AAA59B6AE8D33590DF3ABEBAFEBC5C81112D309156464EDD23390E1173"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/cache_probe/build.ps1",
+    "original_notice": [],
+    "before_sha256": "60D333995CDCCDA71065C4B4FB7AFDF43B39FF03C03F166297EB69F9DC2EB7E0",
+    "after_sha256": "317773A47D7FCFD789B9FA2CBBE51A70BBA6116BC4101C504FCF3EDEF27D2395",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "FE15D1AD1060D2A0AF47E95FCC36D1068B1D3B7CF7D6199E2AB384290C01235B"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/cache_probe/main.c",
+    "original_notice": [],
+    "before_sha256": "E8DE56D9992762FD07950CFC1D1590E7D0F18A0753712F9C6E22949A1EE1787A",
+    "after_sha256": "EEAEB5028FD79BCF37890D2075CC790AD020CF151208025584AFAEC4657CC628",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "C879662A185F1AF2980DB94482EA63D28F14E83D412603BB837C7EA01793593E"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/cache_probe/measure.S",
+    "original_notice": [],
+    "before_sha256": "E7962528EB04D54320D837E151611783BF842F04F463FCB775A8D9AF7385CF71",
+    "after_sha256": "62F16682132ECD42D2E7391B78940E08D79CF1A54C42A41A567E08DF2E206461",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "FECEA3A52BC6B43A44C53426EA950B9042444D5C763B3EF44CA0245C64BA3A55"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/gpio_console/build.ps1",
+    "original_notice": [],
+    "before_sha256": "AC1588FDF509C4140B28C956D6F67AB5B2A5F32D4BA74E939B24AAC901A02FB2",
+    "after_sha256": "3BF9A605B22D0C7640BBAADB66ABC82A73902B777DD738BE0B37F7F7A111CDF4",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "DCC6D44767EFAA8481AB7CA0E10747EC19A86B96DEE7E1B4237FCC1BEFA39C1A"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/gpio_console/build_rom_probe.ps1",
+    "original_notice": [],
+    "before_sha256": "B466609B8936218E0BE1AD013CFE82DB582B9739E19B5B2564D4D6D84A971C80",
+    "after_sha256": "1CA5F4E56E57311BA83DF446FEB57B98C603C28C3CC53DC4EC232F8EB5C3A657",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "B7F45F19E810DE0A9326AD5EDD490A1224E51363929A00BE060AE4BE591FC7C7"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/gpio_console/main.c",
+    "original_notice": [],
+    "before_sha256": "44F83633AC2C43E55E6C1E1B2D018B3EBD327811A269B041F6AE813C28EAFE93",
+    "after_sha256": "E945D22A35D31F2AF184D814C8D383E5B0F3D3E19DBC4CDE85EB9F48B51CFA1D",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "026F9B1562FC48DCA679771A83AB64C1EB5D275196820EC5DF08A1E33F669A30"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/gpio_console/rom_boot_probe.S",
+    "original_notice": [],
+    "before_sha256": "B4331744274AEBD20410D4AC7711F44A59C43C17AC99E4DD84DBF2006A4223E1",
+    "after_sha256": "F5365269F52C01195F2B3A4340A68C540D0ABF1345C60217335C98D14D981EC5",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "7BDD0CFDA51D007B7D32ED13C64CD77E34F8B809D9C99BEA2C52854C2F24FC62"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/gpio_console/test_board.ps1",
+    "original_notice": [],
+    "before_sha256": "376F4500576F709B9E105F5857F57CE6161C06C36AB903B80BC8319720E5A194",
+    "after_sha256": "5783882AEB9C63A68C8FD90AE2B0CAC9A7D5B42D416C595DD98332F7611DC0FE",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "B37EBF78D03ACAB366EDA8B87F26378EF36F7F3BAD819C3A5983C764DFCF959C"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/include/machine.h",
+    "original_notice": [],
+    "before_sha256": "5E1FCAF4F2EC6B657E0A6AECBBD73BB45FC1038E0441D6C201A2EA03CCA5680A",
+    "after_sha256": "4F8B190474C851492F3BBEF6BABE6838BA17136A92F7F222DC7A083D0C107262",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "A63C37FCCD3AFCA77C7D105237480F3D797EE8BB7DF04E13585F34600BAEAEE2"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/include/memory_stats.h",
+    "original_notice": [],
+    "before_sha256": "BE7A4605CB6325F280C5F9F134A8601DC14D6A1A93AA025BC4D403366F16DBD9",
+    "after_sha256": "4DFF0201D02A419D2A325688B8D28ABD62B9C90C5768FBE2FCAA0E4BACA6B928",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "DE9BBCF87BE3FB6DB804CD99BE5D4CBE722FB152F08A6F8FEBD6EE1174F66B19"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/include/timer.h",
+    "original_notice": [],
+    "before_sha256": "682C7A541E15F601EAF811BC2CACE5EDE64C65AEA460C18AE12D9A6508A7E926",
+    "after_sha256": "34A6B750626074C438A4556B12B8B2063FBFACA3C03D9925560324FF3C283BBA",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "158E1C8FE7AB865B36ADB5220D31F79179B5EB91472E6506E6A6A4567DD1B0E7"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/main.c",
+    "original_notice": [],
+    "before_sha256": "49250AA7D9C1C0B4BF575ECE3BA077D312A1463D1C7FE3B7E6E70598604B9670",
+    "after_sha256": "E24A98B53ACE7BB5F3B6C05B2995C6D67697E8B52E4D307CEEE25E15B4454CC4",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "2868D2BA8064EA1A0A7AF884E4F6565036E2CBDA63AF5A8EBE2331DA82270525"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/main_sum_original.c",
+    "original_notice": [],
+    "before_sha256": "DB35B124922EEEF47EBB9333656313F67FC001E4581C3B152B8C9F1B71990D59",
+    "after_sha256": "4703BF21D7DF69789F9786AE1CFD348F78015E976EA932FD73315C41596C3E68",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "33A7FB023606793EE22C45EA8F63193413288B35AF6CE3B0E21B67BADB181908"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/start.S",
+    "original_notice": [],
+    "before_sha256": "13AF7B76ABB1E5477BDEBB3C16A7696D5A3D10908134B241014DF6C05CF9E568",
+    "after_sha256": "8D20F7F640BFAB3FAE8BF01F7654D66CB6FDF47EE42FD17499AE93AD68ACC6EE",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "4F51A18FB00223B4484ABF896778CE58F12CA35013DABE923E4E458CDCF8C4DA"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/timer_irq/main.c",
+    "original_notice": [],
+    "before_sha256": "FCE83DDBC983766B715FAB389BACBE55A7A6B4210B7E9084458702B102416C9F",
+    "after_sha256": "2AE465643305673977A9E0833C117A6BAEA1793CC107EA14F60B8C55F97D8A6C",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "2FA864F0F63EB8E11827641B1B648E3AB1F1FD07357584316B6DC05E3F81378E"
+  },
+  {
+    "path": "pds/tinyriscv_mes50hp/sw/timer_irq/trap_handler.c",
+    "original_notice": [],
+    "before_sha256": "161A5D0CA28AD0E25360C9151D1077BEE4D8226384695C39880D22AA249B90B9",
+    "after_sha256": "CC8607E4781E2F29D82B971FFAD920B6DCA7799253DEED6179DCBB8E77D7DA86",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "0A40337832B759CD968760AEC2C9B0571B3C95451A3C47FD9F69C2013F2D807B"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/branch_predictor_tb.sv",
+    "original_notice": [],
+    "before_sha256": "B3004A1535DDC37BEFFFF0FF1DB15E2099065F48DF8377A0F516BA34F4FEED3C",
+    "after_sha256": "96AF22314FB9BA6424996F9C63E54F7A9994C3A3575EBAC912CE466918C860E7",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "AFFF39BB7704C6610D887523E19B89318D03B26958619FC016EAB87966D68057"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/cache_backend_tb.sv",
+    "original_notice": [],
+    "before_sha256": "F4ABFC928F3523E9430906CAC6EE5CEEB6362E25F2E94B2530CBB492AB7855CD",
+    "after_sha256": "02012B66EE32661D7D3876A767208017AA1F9757B357ED1B4DE377205476734C",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "9B6A4E772787C9C35E55F8C6B708C2C369697EB93A41CF8C543DB72590A12660"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/cache_probe_tb.sv",
+    "original_notice": [],
+    "before_sha256": "293C519E3EC9FF2D6923695CD40019CA328790BEC096C92039A0D7C84B0BD5C2",
+    "after_sha256": "F1A0315620B9A4BF7EC9B9747F07F8EFC72F86D4C9F5AF335E7A8BCBB21F0FDB",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "BC55B0ECC7A765CC88BD614651ED4C8C1AAA8222DE88FF84BBCFF12D8A5DB876"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/early_cache_tb.sv",
+    "original_notice": [],
+    "before_sha256": "5F6C74471CE77E0656F8F7AF961D00C8226407F5FD9C1688D5E614CC083286CF",
+    "after_sha256": "43DA031A826560D3A05B10F838612EF437FB166B9BF7A21B9B959F56CBEC5220",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "14688A388AA82EDD5949FCF81E4EB5D3DFC65436E1583E8B284AC5EE80C7845E"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/early_cpu_tb.sv",
+    "original_notice": [],
+    "before_sha256": "7F61882F33AF4086B3594E9A92CC6003650B6734AB2CDC03ABC62A9D2A0363C3",
+    "after_sha256": "C602918AFF2EBA27435674D5A63FC334A7BD90CF8C954353E056FFD9AF1940E8",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "ABC82DC65F82C48440D929AA32E73ABF0B06487811E91B15C0F6B2A11C2EDC35"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/jtag_wait_tb.sv",
+    "original_notice": [],
+    "before_sha256": "2957E13E9122A54CDFF1CA4FA136F220DF9943698B9EA7B70C30B3C22739DC25",
+    "after_sha256": "EC8EBD7A8C1147A68807F13539EC9E6FDC65A24CE61768EDD2B73D91B56B1859",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "9110E9CA896A6FB10888A8BC9277A1049B903FA4DD0965B1237AAEF2194E9362"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/memory_soc_tb.sv",
+    "original_notice": [],
+    "before_sha256": "763721DDECFA01621FC576FE2E39381FBDB665092E95E07732F30E470D58C492",
+    "after_sha256": "7ECA9C46F53A39149E7EE73F4D843DD179D5F5B13D72A96A88E03152C6F80CBC",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "DE42614683BEAF54F31573C2551D1BCE5B15B08781A60155019D10AFA8A277E6"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/memory_system_cpu_tb.sv",
+    "original_notice": [],
+    "before_sha256": "648E33648F8F3AD4FE6847619C38CC354E79A21741E6105171D13B4804B38F5E",
+    "after_sha256": "6763A3A5966458DE76B281D235867B6064CB7EFC306AA0A31903675778ABA32D",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "C09ED3B268F975BFD15172102DA16C47007D02F3B018693BD617155D66CE95CF"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/memory_wait_tb.sv",
+    "original_notice": [],
+    "before_sha256": "D9F55DA4CF3B986F100A7D62F8A02EE5B77C5FAD9D79DD15CA7AE82C228ED031",
+    "after_sha256": "252A0E8A743AC06B5B0D49D5FD8823A1BE5467D6E9E87E7080DC7610E67ACD01",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "B31718BE4EE8795FF2059D65E2660B061443511DE44C37CCF09E47952BA64164"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/predictor_lifecycle_tb.sv",
+    "original_notice": [],
+    "before_sha256": "74DF0BC3C82C57C24F65DECB8B1E5EDD70DFFFA2FAA8BC4802E8C7E0DFD89091",
+    "after_sha256": "6F5200B3ABE2B3EAFA2EBE3D40DB8DDBCA3F96B0744D0BBE938509564B5DBE2A",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "DFF34B952B2311D8CF886472CC886C7435C46234E587F0CC3982D63166E23CA3"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/branch_prediction.S",
+    "original_notice": [],
+    "before_sha256": "13C57728CD1846D1B4E580DD836E984A3B52A2A711168286E4EB6E1785D84E45",
+    "after_sha256": "5BCE1AF9DED7C2BDBE4F76CC3BE3E7BBDDCEB7B769D72D5F19E278B908C0B80D",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "11189CCACD32ADD5F96891DB918C9212C52BA5D67A56FC5F865EF6F2F113E7D9"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/cache_system.S",
+    "original_notice": [],
+    "before_sha256": "5BF36C405F79C374046D0C2956F9E0A9A2DB183F8E260BB9F0A533CFBA8AC9AA",
+    "after_sha256": "5C57AC3CDFF256AC4D4D568B88C54AF13CC07CE0325486988A11753DBC7F8CD2",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "BE9C96AC1C98822DCD1B8F388E5E1AF9AA053AEBD1459EEABC91019E6C52CB62"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/csr_semantics.S",
+    "original_notice": [],
+    "before_sha256": "387190417EEF632C3E8A60CB66A969B476AD0AA459E7CA2EDE10DF3560F1E3A5",
+    "after_sha256": "360D1E253F3E20257E3C6709995615A84A7B660F72C65006499EC11063655EB8",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "D3B850E1AD8117F049BB4F925FD9EB21385D3B5E6CFB4543670974D4EFBE69A1"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/early_focus.S",
+    "original_notice": [],
+    "before_sha256": "3152AB15B4D9E56CAE6EC4ACEA8844A7C8777BE75B57473B81A408170FBFABAA",
+    "after_sha256": "93947BC12FC67692CCB1D3AD6B76922764ACA66D7A13FD61859CB61FD9A60E10",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "6379308B37567561C2489EB6E52A04A674A916D8BA16B21D80376DF965FB7AF3"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/environment.S",
+    "original_notice": [],
+    "before_sha256": "FC06C21E590E0252042F262A34AE3D3EA184E7EEE597C055A317385B89BB6401",
+    "after_sha256": "5A3F0E53E3E8F553A5764A21619FCA9E6D4C36A3B71849FA67BA0F777B3770EE",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "EBAEE5E837D1CCD8563D6C0FC5F403272E48E9AFE14BA37BC8554EB737BD29F4"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/exceptions.S",
+    "original_notice": [],
+    "before_sha256": "462FFB1D0005D777E1D9E1D0B6AF4D918E8C912908BC311F3634270A268A3E05",
+    "after_sha256": "CF844E112A6B37455384FB7D2299DAF4EE96A9829BD7FAD6BFDBB898FADDDF2A",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "3AA233DEB36879C820A84CA45E8EA4F41349497DCBC8EFE302C04E4F08E76119"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/fetch_error.S",
+    "original_notice": [],
+    "before_sha256": "5AD989694681797757C6908079D1F12F2D5D0A22B05A3C81817DDDFF2B6F3816",
+    "after_sha256": "DDAEEBBFB59B5A7950DE624013A0DF429B1E80CBAE0FE03B0F6463B27AA96603",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "C9D63391A2B00475563B10639977285FDBCCE4CB18AC7B8E1F53C7AB77BD8E4F"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/interrupt_nested.S",
+    "original_notice": [],
+    "before_sha256": "5D489E972A350151B085E621EF9617AEEBAB73430B9043C12B52794DA7897DB5",
+    "after_sha256": "292D38EF61A666C559E8F4D93BD367763505755D3CBCECA073196039231C3AE0",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "457D3D7832AB401D2190292048EBE32A66C0D8907EF78C50D6F1B41333EC9C11"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/interrupt_sources.S",
+    "original_notice": [],
+    "before_sha256": "E124E44C42CFC4905A218E482770BDFFE0B47A1814C8174747FA7F123F45C539",
+    "after_sha256": "50BCE01A2E015B8F92D1D4E09B8E9BCF93955D85D9DE636B55DFBEB5D6EA0710",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "A822F7BCB20A530C4E69592582D3BC3BBB4221EA1E6F528BE7B0EE7722D6C7D7"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/jalr_bit1.S",
+    "original_notice": [],
+    "before_sha256": "64CA366ACBA9B15BBB4F4A9683CE79578DFBA77A5AF08E93AC88FB44E3CF7BC6",
+    "after_sha256": "21AC0BCBAF894C3AFB0FA93C135947244075CFDB3D547D9BC7113D888503D88A",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "07F01B0CBF138BE7CCE7D6BD56450A3A61E79BF19E643C1A41E5AC03487AC469"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/jalr_edges.S",
+    "original_notice": [],
+    "before_sha256": "FF840042BADC3A6072B4F7E435A6A37336A57DE97D517E629244661874A854CB",
+    "after_sha256": "F9FCD6CE790DA064084C08E736B9CE4380CF31CA1FB4708A62EAB36023723349",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "DE7EF14F95F8010437B0744C7092A84F85BA8CD3433078C526F3B6EB625475CF"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/jalr_odd.S",
+    "original_notice": [],
+    "before_sha256": "C65D4D680A44D5B19AC73FD2C8D69724D7802729BE9BDDD5341B1B1764516C1A",
+    "after_sha256": "2D99AD4CCEE3F897EF69D93840B1133338245D2C588050E1633CC76F1840D8CB",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "E6E3F2600AAE6FC1BC7288D0F901666BDCBCB9214A10E2045CA9DFB525277A30"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/memory_soc.S",
+    "original_notice": [],
+    "before_sha256": "526E37BA131DBB1DA475516F3C8DEB9216F0201858CCF099A72C1EFC295E7348",
+    "after_sha256": "951FEA187FBB9F9DEA4F986CE9BDC12429FC21350A333E4F1060C3A890649761",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "5789515DDBFF24B2267FE34018AC1DB3F8BD469961A96DD45CC78655D503F411"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/memory_statistics.S",
+    "original_notice": [],
+    "before_sha256": "9FB3CF98BAE8F9A2F4816918E876C1511CFA9809012D96114B79FE4651E5024C",
+    "after_sha256": "5BA26CA6AA27E5E5F4AD87BBD04DA6A78990BD73C321C0A1184A127DF45E6763",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "1395E6EF4DEAD60F22D3EF8FC37A88A56B65785331AFCE11E9E5564D62AFA8FB"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/memory_wait.S",
+    "original_notice": [],
+    "before_sha256": "66B449DE7546E5D1DCCE52E11A5B316CA1F40036871E1C361B140358CA81BC01",
+    "after_sha256": "E31240AA670144AF82253A43674AA3F6AA8C32BF5321A0E22519AF923A56AF8E",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "70315771979C7C4795A244A5E05FC2E5161319B9A4C593A439E880FB4744CB15"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/pipeline.S",
+    "original_notice": [],
+    "before_sha256": "4482FF930EF113EBF5B0C490626CB59FFD66988EE26A52F2ACCA02D70A4A2E5F",
+    "after_sha256": "47BF9B4B446D085A3F040CCDFCFB354A4D6EDB2BD4EEAC0BCA03D48941D7E716",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "7D4C8A8AC25D6D2464AED3A5B0D412906A4D568DDBB57D446DD4519037AAFB7C"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/pipeline_valid.S",
+    "original_notice": [],
+    "before_sha256": "2B17246D99C8239ED274AC8C6F1495C589048272FB961696CB85FDE2C8D5CD1B",
+    "after_sha256": "43D3B7326A8EC627F19452A2DCD350092EAF6EF2BAD45EC8103800BA82A9A118",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "769BDD34806EC56B03D52C054741AF11FCD9E71D3933455E2843C69C4219BE5F"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/predictor_lifecycle.S",
+    "original_notice": [],
+    "before_sha256": "4CB2C3CB1923B89064426A1212672DA2EAAB840F542EE3EEB51DF294802364AB",
+    "after_sha256": "12F7EB675BD758AB9B9354D67F93EF50DCA514CD1FB575EBAE6448D73E015B23",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "679C4738AEBD393DBF95FC7DED2B5BF9A34BA0B3147C10F2CF4D36D595DB73BB"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/programs/spi_loopback.c",
+    "original_notice": [],
+    "before_sha256": "9FA956E3EB6CC9CE3EB7D81519418E01CB86AFEF1CF46595944CB46F636F6D0B",
+    "after_sha256": "9BBABB01925A699BE1D5324CBA37014FD40012FC16196AD4F18D536C8654BD2C",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "E3A8FCCC490B14C190FB94D09207E8ACF68B1A3F01DB7CA532B517208F745BF5"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run.ps1",
+    "original_notice": [],
+    "before_sha256": "77574C05D01DCE7505091A31FFFC55CD08ECFCB43F0EBAEB69898E1B2EDF8AA0",
+    "after_sha256": "8E96351807E65D0EBC6BC3F896530210CACCB398DAD3694CE8B1A0E9F542BC06",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "64B9DD664775FF8A5FDA9E33CE63C9780383056B72E3792DD8FECE6C21710044"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run_cache_backend.ps1",
+    "original_notice": [],
+    "before_sha256": "B23F3CAC9AEBCCC690A166E6B161987100BFD552B08280AA31BFBF79A3C4E72E",
+    "after_sha256": "054D24CE80E684FB177E8100797FC6F8589041101448F0A8410876098FFDBCAD",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "4A72B4C718F2CDDD02BE70B8C608E19F52F41D7BF5D16904041F8DB2106EDF8C"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run_cache_probe.ps1",
+    "original_notice": [],
+    "before_sha256": "E74832894F32BDDFB2D7F9D926FCFABF5A2A7FACDA2482AD34AB027F00325A04",
+    "after_sha256": "C3EBCC321F0294B4D2F5F3CB8E7D99306626A8714B03EEFB979E8FEF8AECE36F",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "2E793AFA55164500592B4B1D7DDB9C11A7E14FB3D9AA91E7C7C1742F8E230ED4"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run_delivery.ps1",
+    "original_notice": [],
+    "before_sha256": "28C3576A4420F2805A9F2C89A1A882B092399448620B6561FACD7D7A9EE53E10",
+    "after_sha256": "2F4DFEE5A756C7A77183A1B64468B6031CCA0B71CACC9130720B26CB1BEA6AD4",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "459BD2F8BB7A8591416D40CA377F0AEEE86E8A4EA82D22BC8B9F6887D66A6A8F"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run_early_directed.py",
+    "original_notice": [],
+    "before_sha256": "477123E28453FBE3A23B252919EA179DD516A0F061F65CFF784E79B4948557D9",
+    "after_sha256": "19831EEDCF99B5364B2C4B7A85C1719324CD4587DC1980B5E5F7AC5930C239BC",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "BFCE923317B20803D3A136242E50C3AB1AACD0AA4C4A1FC29AACF6D133D7E697"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run_jtag_wait.ps1",
+    "original_notice": [],
+    "before_sha256": "D793A5D8E754C6A221B326F940741AEE8B1A09CAE9938A5BD2335DFA887C5B1F",
+    "after_sha256": "B8D5CB39E633E6E8A3A802C5DECE5C7221458438B13354C7808A085391C1BD7B",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "9996639DA148641AF37B89FCE0A3AD7785EF33E5B0E95B7E513A80A7435194D8"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run_memory_delivery.ps1",
+    "original_notice": [],
+    "before_sha256": "80F0B4B0A67CF7F80699ACF9E1ABBA31DA0BDB1C7FCDAAA2194CD5631A86DB08",
+    "after_sha256": "C1DC9C50248C464EB743E5127FAC497A4B8DD6D774738DA0A6C75780CA54D9A9",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "4EA2D1503AF38427ACB3ACF20DDA52E816D7566B490FB4DB8F2F120A2CB97298"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run_memory_soc.ps1",
+    "original_notice": [],
+    "before_sha256": "EEA2031730CBAE38DB701C9C57EA974C2F6BF45C131B5F4F651472FAD655510E",
+    "after_sha256": "5B91EFD56A8B87A513191195906CFA08302A132505D8AC4CE4D27324C5452201",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "BF6CECBF1459CED3880FCE15C4039EC762AE094DA4C11934DED1E1EA32503EAF"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run_memory_wait.ps1",
+    "original_notice": [],
+    "before_sha256": "0D6431CBB840A7059DADE0D101727B359CFDC00B4C52A074AB41B767DB20EC16",
+    "after_sha256": "D151DACF75BFFBD18D2E82E2208CAB26EAB67D0F0AD208C413AD90E1061309B5",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "154D5CFEAD89BB5273C250D6D98CB9C981FF0CDB1CDC2A923E6C107332A37145"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run_predictor_unit.ps1",
+    "original_notice": [],
+    "before_sha256": "7B064C88503387E7DD106B17BB151D8C71BCCD466719D4817A56B89BD0BA41CE",
+    "after_sha256": "51F00A8B4A79EC145876D3EB9CD2F35F1F9F59474945AA9AE7323074E3AA1CF6",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "976669EE8B22ED25151969EDDA1AD75BE2E611535FF1DAE905D620CE9BDCFE0D"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run_timer_unit.ps1",
+    "original_notice": [],
+    "before_sha256": "49BB99D04285AD1BC0B9B580027F9AAD14BAB5F85DB1FC97A80BD8DE27FD4704",
+    "after_sha256": "BFEFD7565CBDFC81A63C22034890EB9ADC987DC11AAAC326AEAE471DBBC5EC43",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "C573CCF6D7721F328DAF7A0F6B71B07B0D9BF6D3735FA727FC5C1C822429BC80"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/run_uart_wait.ps1",
+    "original_notice": [],
+    "before_sha256": "4D073B3B2345B8AD244996D8E72543C59A146DF3FE8894B7E9EF6D92729EE83C",
+    "after_sha256": "7E333E902016AF4B3D9ACC645F019D920D2D788739E1E11C800BC4CF25FBFF44",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "7FE24D6816597E6D749373DE2553C7E036CBBB35EE9CAE2A81767B37C3FEFA30"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/timer_irq_tb.sv",
+    "original_notice": [],
+    "before_sha256": "403F566A8B8CB3F2486270A678712940D42E7CF35A0E449652460F8C48936AAF",
+    "after_sha256": "CA6208D7D4D11C45F0C7BB573BA842A21E2F36DF82ED8CBDC50E4CA7946EDA87",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "30E02F30316A14F991DFE982327941D55296FA06EA9805441DD6275455113DFD"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/tinyriscv_lab_tb.sv",
+    "original_notice": [],
+    "before_sha256": "5A609EFD5C8DFCE9F964C1FCD82D2505DE76E1F5F1D503A1E03BA943AD13BB5F",
+    "after_sha256": "89000593576CB802959AF9EDFE1B7BD839A983B698D90163ABA98647D888F4B3",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "19191212EBCF4EAFA553B566DC1464C3EB5B63BBEF477FAC1333651F94102D8C"
+  },
+  {
+    "path": "sim/modelsim/tinyriscv_lab/uart_wait_tb.sv",
+    "original_notice": [],
+    "before_sha256": "53B26595B11F8CA926D3748FC6476F64203D017A1BD796E9DB50083F48F8BB81",
+    "after_sha256": "CDFD4B85501D67BCC47D07779803260150D03DBEAEC55566E48E57DCE121B382",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": true,
+    "public_sha256": "8DCBC4267BFEF66B871DB144D016DB8A660CC1FDEB27CD9EF098CA7C77C11B62"
+  },
+  {
+    "path": "sw/coremark/build.ps1",
+    "original_notice": [],
+    "before_sha256": "CD798324DF94E8FE7BF4908C57AD2E147CCBA9AB905C4A646E641708268BD7B5",
+    "after_sha256": "A2CF4048EC11E46CBAEA8F3E47237C1D8F7F194116351CF20129DD158F0372DC",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "65A2C49D7E707349B0C055B1E4930C33718B2FF85CA6873F9BE63D3CEAD59762"
+  },
+  {
+    "path": "sw/coremark/capture.ps1",
+    "original_notice": [],
+    "before_sha256": "014E595D8F7A90D18873F1E088B02C1867784BEC8C97E4B070C991B04553D5DF",
+    "after_sha256": "FE1B562A4828135367482F0A94DBA0E42FBC1D834AD405CFDDA2A16388B80A7C",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "40B8F636E603C949511A3E6362766A81FC33BA255781D60DF7E6E89E6EE50A09"
+  },
+  {
+    "path": "sw/coremark/port/core_portme.c",
+    "original_notice": [],
+    "before_sha256": "AAB7C090AB7DA758A84DEA81EF35654DB3B64F82C162146379A53AE19B317A04",
+    "after_sha256": "5282A8BEE57833CD48FE0D9DB66E4D5D75A68E96F79E6643151383AE73ACF67D",
+    "origin": "本项目 CoreMark 平台移植；固定算法保存在 sw/coremark/upstream",
+    "rtl_lexical_equal": null,
+    "public_sha256": "809954CBDBBC2D264FF5AF63FFEBA6C3669C2877D5AF01B505DA7FB73B7767E1"
+  },
+  {
+    "path": "sw/coremark/port/core_portme.h",
+    "original_notice": [],
+    "before_sha256": "0D0DAE775A9068066FA78250EEF00A32ACE651D6D94DF37ABE47F588F1C2D7F5",
+    "after_sha256": "A1D13E4C6E39CCE2226C940175EBE2687B47787956D64A575B4C0F26F0010BD9",
+    "origin": "本项目 CoreMark 平台移植；固定算法保存在 sw/coremark/upstream",
+    "rtl_lexical_equal": null,
+    "public_sha256": "FB440FD90149C562A1FF11B2E51168C8E877940E95101122E6E3BB101B375ADF"
+  },
+  {
+    "path": "sw/coremark/port/core_portme_io.c",
+    "original_notice": [],
+    "before_sha256": "B3D4BFB5E91D493093D1CB9FACACF7E88872CFB8E01A115D0709F5B86F76F1AE",
+    "after_sha256": "7BD860F2EFCDC246E11BF36A22A80CD0B692197DFF1A03AE76647A4F89FF0956",
+    "origin": "本项目 CoreMark 平台移植；固定算法保存在 sw/coremark/upstream",
+    "rtl_lexical_equal": null,
+    "public_sha256": "F7D61A070864FD18F5549B8E4632877D27161E433368F4C6C315F4CC64F50DB6"
+  },
+  {
+    "path": "sw/coremark/score.ps1",
+    "original_notice": [],
+    "before_sha256": "FA48C1213E14452B1E2A347DE6722E445F51B2CB0984F69B2887521D9F0C442A",
+    "after_sha256": "95B0FDF3E6ADEB3C56DE23193CBD6E616370183460777120DC4E16958403117B",
+    "origin": "本工程板级适配、测试或构建辅助文件；来源快照见逐文件映射",
+    "rtl_lexical_equal": null,
+    "public_sha256": "5F96C3CE0CA341C952FD24156B1E6C6F5D4778EFD5075F235B6973ED1BF866E7"
+  }
+]
